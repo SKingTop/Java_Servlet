@@ -1,0 +1,66 @@
+* {
+    outline: none;
+}
+body {
+    background-color: lightgrey;
+}
+.main {
+   width: 400px;
+   height: 400px;
+   margin: 0px auto;
+   margin-top: 150px;
+}
+img {
+    display: block;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+.form1, .text {
+    width: 325px;
+    margin: 0px auto;
+}
+.text {
+    margin-top: 50px;
+}
+.pole {
+    width: 100%;
+    margin-top: 5px;
+}
+.formBtn1, .formBtn2 {
+    margin-top: 20px;
+    width: 45%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: grey;
+}
+.formBtn1:hover {
+    background-color: green;
+    cursor: pointer;
+}
+.formBtn2:hover {
+    background-color: red;
+    cursor: pointer;
+}
+.formBtn1 {
+    float: left;
+}
+.formBtn2 {
+    float: right;
+}
+.backBtn {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: grey;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+}
+.backBtn:hover {
+    background-color: green;
+}
